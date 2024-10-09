@@ -1,0 +1,47 @@
+Do nothing if no info string specified
+.
+```
+```
+.
+<pre><code></code></pre>
+.
+
+Render line-numbers class if line-numbers is the second word in the info string
+.
+```ruby line-numbers
+```
+.
+<pre><code class="line-numbers language-ruby"></code></pre>
+.
+
+Render line-numbers class if line-numbers is the nth word in the info string
+.
+```ruby startline=3 line-numbers $%@#$
+```
+.
+<pre><code class="line-numbers language-ruby"></code></pre>
+.
+
+Render line-numbers class only if line-numbers is a standalone word
+.
+```ruby startline=3line-numbers
+```
+.
+<pre><code class="language-ruby"></code></pre>
+.
+
+Render line-numbers as a language if it's the first word in the info string
+.
+```line-numbers
+```
+.
+<pre><code class="language-line-numbers"></code></pre>
+.
+
+Render line-numbers as a language if it's the first word in the info string with other words following
+.
+```line-numbers ruby
+```
+.
+<pre><code class="language-line-numbers"></code></pre>
+.
